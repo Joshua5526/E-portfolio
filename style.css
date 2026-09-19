@@ -1380,6 +1380,16 @@ footer {
     font-size: 0.7rem;
 }
 
+.footer__left{
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo{
+    width: 30px;
+    margin: 0 12px;
+    filter: invert(1);
+}
 
 /* =========================================
    ANIMATIONS
