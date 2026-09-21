@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | Joshua Pierce</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Background decoration -->
+<div class="background-grid"></div>
+<div class="glow glow-one"></div>
+<div class="glow glow-two"></div>
+
+
+<!-- NAVBAR -->
+<nav class="navbar">
+
+    <a href="index.html" class="logo">
+        <img src="assets/Joshua Pierce.png" alt="Joshua Pierce logo">
+    </a>
+
+    <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+    >
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="index.html">home</a>
+        </li>
+
+        <li>
+            <a href="projects.html">projects</a>
+        </li>
+
+        <li>
+            <a href="resume.html">resume</a>
+        </li>
+
+        <li>
+            <a class="nav-contact contact-active" href="contact.html">contact</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+
+<!-- CONTACT PAGE -->
+<main>
+
+    <section class="contact-page">
+
+        <div class="contact-intro">
+
+            <p class="section-label">// contact me</p>
+
+            <h1>
+                Let's
+                <span>connect.</span>
+            </h1>
+
+            <p class="contact-description">
+                Have a project in mind, a question, or just want to
+                say hello? Fill out the form and I'll get back to you.
+            </p>
+
+
+            <!-- SOCIAL LINKS -->
+            <div class="contact-socials">
+
+                <a
+                    href="https://www.facebook.com/share/1EqQEMEsPe/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                >
+                    <img
+                        src="assets/facebook-brands-solid-full.svg"
+                        alt=""
+                    >
+                </a>
+
+                <a
+                    href="https://linkedin.com/in/joshua-pierce-1a3055438"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                >
+                    <img
+                        src="assets/linkedin-brands-solid-full.svg"
+                        alt=""
+                    >
+                </a>
+
+                <a
+                    href="https://x.com/joshuapierce71?s=11"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="X"
+                >
+                    <img
+                        src="assets/square-x-twitter-brands-solid-full.svg"
+                        alt=""
+                    >
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form-card">
+
+            <div class="form-header">
+                <span>01</span>
+                <p>send a message</p>
+            </div>
+
+
+            <form id="contact-form">
+
+                <div class="form-group">
+
+                    <label for="name">name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">e-mail</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        autocomplete="email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="What would you like to say?"
+                        rows="7"
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    class="contact-submit"
+                    type="submit"
+                >
+                    <span>Send Message</span>
+                    <span class="submit-arrow">→</span>
+                </button>
+
+
+                <p
+                    id="form-status"
+                    class="form-status"
+                    aria-live="polite"
+                ></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer__left">
+
+        <p>
+            © 2026 Joshua Pierce
+        </p>
+
+        <a
+            href="https://www.facebook.com/share/1EqQEMEsPe/?mibextid=wwXIfr"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                class="footer__logo"
+                src="assets/facebook-brands-solid-full.svg"
+                alt="Facebook"
+            >
+        </a>
+
+        <a
+            href="https://linkedin.com/in/joshua-pierce-1a3055438"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                class="footer__logo"
+                src="assets/linkedin-brands-solid-full.svg"
+                alt="LinkedIn"
+            >
+        </a>
+
+        <a
+            href="https://x.com/joshuapierce71?s=11"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                class="footer__logo"
+                src="assets/square-x-twitter-brands-solid-full.svg"
+                alt="X"
+            >
+        </a>
+
+    </div>
+
+    <p>
+        Built with HTML, CSS & JavaScript
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
